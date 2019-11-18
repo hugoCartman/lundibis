@@ -15,7 +15,7 @@ namespace lundibis.Modeles
         private int _tauxhoraire;
         #endregion
         #region Constructeur 
-        public Intervenant(string lachaine , int txhoraire)
+        public Intervenant(string lachaine, int txhoraire)
         {
             this._chaine = lachaine;
             this._tauxhoraire = txhoraire;
@@ -27,3 +27,4 @@ namespace lundibis.Modeles
         public int Tauxhoraire { get => _tauxhoraire; set => _tauxhoraire = value; }
         #endregion
     }
+}
